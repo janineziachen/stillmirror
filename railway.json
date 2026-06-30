@@ -4,7 +4,6 @@
     "builder": "RAILPACK"
   },
   "deploy": {
-    "startCommand": "cd xingjing && npx serve dist -s -l $PORT",
     "restartPolicyType": "ON_FAILURE"
   }
 }
