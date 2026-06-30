@@ -1,0 +1,46 @@
+:root {
+  /* === Colors === */
+  --color-black: #0A0A0A;
+  --color-dark: #1A1A1A;
+  --color-paper: #F5F0EB;
+
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: rgba(255, 255, 255, 0.7);
+  --color-text-hint: rgba(255, 255, 255, 0.4);
+
+  --color-glass-bg: rgba(255, 255, 255, 0.18);
+  --color-glass-border: rgba(255, 255, 255, 0.35);
+  --color-glass-hover: rgba(255, 255, 255, 0.26);
+
+  /* === Fonts === */
+  --font-narrative: "LXGW WenKai", "Noto Serif SC", serif;
+  --font-hint: "Noto Sans SC", sans-serif;
+
+  /* === Spacing === */
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 48px;
+
+  /* === Easing === */
+  --ease-gentle: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-breathe: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  --ease-zoom: cubic-bezier(0.25, 0.1, 0.25, 1);
+
+  /* === Durations === */
+  --dur-image-fade: 2s;
+  --dur-image-breathe: 2s;
+  --dur-text-fade: 1s;
+  --dur-text-pause: 2s;
+  --dur-between-shots: 1.5s;
+  --dur-between-scenes: 3.5s;
+  --dur-act-transition: 5s;
+  --dur-choice-appear: 1.5s;
+  --dur-choice-delay: 2s;
+  --dur-garden-fade: 3s;
+  --dur-garden-zoom: 1.5s;
+  --dur-garden-pan: 1.2s;
+  --dur-interaction: 1.5s;
+  --dur-fade-quick: 0.8s;
+}

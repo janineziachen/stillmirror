@@ -1,0 +1,9 @@
+node_modules
+dist
+.DS_Store
+*.local
+
+# 内部文档（不公开）
+docs/
+产品简介.md
+.claude/

@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd xingjing && npm install && npm run build",
+  "outputDirectory": "xingjing/dist",
+  "framework": null
+}

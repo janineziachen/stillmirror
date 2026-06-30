@@ -1,0 +1,190 @@
+{
+  "opening": {
+    "shots": [
+      {
+        "id": "opening-01",
+        "image": null,
+        "lines": [
+          "你不记得自己是怎么来到这里的。",
+          "只记得你很累。",
+          "那种累不在身上。在更里面一点的地方。",
+          "像是背了很久的一个东西，久到你已经忘了它的形状。"
+        ]
+      },
+      {
+        "id": "opening-02",
+        "image": "/assets/opening/opening-02.png",
+        "lines": [
+          "你面前有一扇木门。",
+          "门很旧，漆面剥落，但门缝里透出一丝绿意和泥土的气息。",
+          "门没有锁。"
+        ]
+      },
+      {
+        "id": "opening-03",
+        "image": "/assets/opening/opening-03.png",
+        "lines": [
+          "你把手放上去。木头是温的。",
+          "你推开了门。"
+        ]
+      }
+    ]
+  },
+  "scene1": {
+    "dimension": "acceptance",
+    "shots": [
+      {
+        "id": "s1-shot-01",
+        "image": "/assets/scene1-lake/s1-shot-01.png",
+        "lines": ["你走进花园，脚下是落叶。", "厚厚的一层，踩上去没有声音。"]
+      },
+      {
+        "id": "s1-shot-02",
+        "image": "/assets/scene1-lake/s1-shot-02.png",
+        "lines": ["空气是湿的，带着青苔和雨后的味道。", "这座花园像是被遗忘了很久，又像是一直在等你。"]
+      },
+      {
+        "id": "s1-shot-03",
+        "image": "/assets/scene1-lake/s1-shot-03.png",
+        "lines": ["树丛渐渐稀疏。一片湖出现在你面前。", "湖面很静，静到像一面铺在地上的镜子。", "薄雾贴着水面，缓慢地呼吸。"]
+      },
+      {
+        "id": "s1-shot-04",
+        "image": "/assets/scene1-lake/s1-shot-04.png",
+        "lines": ["你走到湖边，低头看——", "水面映出你的样子。但那个倒影的眼神和你不太一样。", "它看起来比你更诚实。"]},
+      {
+        "id": "s1-shot-04b",
+        "image": "/assets/scene1-lake/s1-shot-04.png",
+        "lines": ["它没有笑，也没有假装没事。", "它只是看着你，像是在说：'你可以不用撑着。'"]
+      }
+    ],
+    "choice": {
+      "prompt": "你感觉胸口有什么东西动了一下。你会——",
+      "image": "/assets/scene1-lake/s1-shot-04.png",
+      "options": [
+        {
+          "id": "a", "text": "在湖边坐下来，让自己和那个倒影待一会儿",
+          "score": 5, "seedType": null, "hasInput": false, "inputPlaceholder": null,
+          "responseImage": "/assets/scene1-lake/s1-response-a.png",
+          "responseLines": ["你在湖边坐了很久。", "久到雾气开始散去，久到倒影的表情似乎柔和了一点——", "或者是你的表情先柔和了。"]
+        },
+        {
+          "id": "b", "text": "用手搅乱水面——你不想看见那个表情",
+          "score": 2, "seedType": null, "hasInput": false, "inputPlaceholder": null,
+          "responseImage": "/assets/scene1-lake/s1-response-b.png",
+          "responseLines": ["水面碎成一圈圈涟漪。倒影散了。", "但你知道，等水面静下来，它还会在那里。"]
+        },
+        {
+          "id": "c", "text": "站起来往回走，你还没准备好面对它",
+          "score": 1, "seedType": null, "hasInput": false, "inputPlaceholder": null,
+          "responseImage": "/assets/scene1-lake/s1-response-c.png",
+          "responseLines": ["你转身离开了湖边。", "没关系。它不会消失。", "也许下一次，你会准备好。"]
+        },
+        {
+          "id": "d", "text": "轻声说了一句话",
+          "score": 4, "seedType": null, "hasInput": true, "inputPlaceholder": "你对倒影说……",
+          "responseImage": "/assets/scene1-lake/s1-response-d.png",
+          "responseLines": ["你的声音很轻，轻到只有水面听见了。", "但倒影的表情变了一点。", "像是在说：我听到了。"]
+        }
+      ]
+    }
+  },
+  "scene2": {
+    "dimension": "defusion",
+    "shots": [
+      {"id": "s2-shot-01", "image": "/assets/scene2-sky/s2-shot-01.png", "lines": ["你离开湖边，穿过一片矮树丛。", "头顶的枝叶渐渐稀疏，天空一点点露出来。"]},
+      {"id": "s2-shot-02", "image": "/assets/scene2-sky/s2-shot-02.png", "lines": ["你来到一片开阔地。天空很低，像是伸手就能碰到。", "你不自觉地躺了下来。"]},
+      {"id": "s2-shot-03", "image": "/assets/scene2-sky/s2-shot-03.png", "lines": ["你注意到云层里有字。", "不是写上去的——更像是云本身就长成了那些字的形状。", "你认出了其中一句。", "那是你对自己说过无数次的话。"]},
+      {"id": "s2-shot-03b", "image": "/assets/scene2-sky/s2-shot-03.png", "lines": ["在深夜，在出错的时候，在别人看不见的地方。", "那朵云很慢地移动着。", "它不急。它知道你会看见它。"]}
+    ],
+    "choice": {
+      "prompt": "那朵云对你来说——",
+      "image": "/assets/scene2-sky/s2-shot-03.png",
+      "options": [
+        {"id": "a", "text": "它太大了。你站在它的阴影里，天暗了下来", "score": 1, "seedType": null, "hasInput": false, "inputPlaceholder": null, "responseImage": "/assets/scene2-sky/s2-response-a.png", "responseLines": ["云的影子盖住了你。很暗。", "但你抬头看——云在动。很慢，但在动。", "没有一朵云会永远停在原地。"]},
+        {"id": "b", "text": "你看见了它，但你也看见了它边缘透出的光。它只是一朵云", "score": 5, "seedType": null, "hasInput": false, "inputPlaceholder": null, "responseImage": "/assets/scene2-sky/s2-response-b.png", "responseLines": ["你看见了它的边缘。光从那里漏出来，细细的一圈。", "它只是一朵云。它不是你。"]},
+        {"id": "c", "text": "你想跳起来把它撕碎。你受够了这句话", "score": 2, "seedType": null, "hasInput": false, "inputPlaceholder": null, "responseImage": "/assets/scene2-sky/s2-response-c.png", "responseLines": ["你伸出手。但它太高了。", "它不在你够得到的地方——也不在你需要够到的地方。", "它只是飘过。"]},
+        {"id": "d", "text": "你躺在草地上，看着它慢慢飘远。它来过很多次了，你认识它", "score": 4, "seedType": null, "hasInput": false, "inputPlaceholder": null, "responseImage": "/assets/scene2-sky/s2-response-d.png", "responseLines": ["你看着它走。", "像目送一个你不再需要相信的故事。"]}
+      ]
+    }
+  },
+  "scene3": {
+    "dimension": "present",
+    "shots": [
+      {"id": "s3-shot-01", "image": "/assets/scene3-path/s3-shot-01.png", "lines": ["你站起身。", "低头的时候，注意到脚边的草被踩出了一条痕迹。", "不是被人修出来的路，更像是被反复走过之后，草自己让开了。"]},
+      {"id": "s3-shot-02", "image": "/assets/scene3-path/s3-shot-02.png", "lines": ["路两旁的草很高，有些顶端挂着露珠。", "风吹过来的时候，它们会轻轻碰到你的手背。", "凉的。"]},
+      {"id": "s3-shot-03", "image": "/assets/scene3-path/s3-shot-03.png", "lines": ["你走在路上。路不长。", "但你发现自己走得很不一样——"]}
+    ],
+    "choice": {
+      "prompt": "你注意到自己——",
+      "image": "/assets/scene3-path/s3-shot-03.png",
+      "options": [
+        {"id": "a", "text": "脑子里还在想刚才湖面的那张脸", "score": 1, "seedType": null, "hasInput": false, "inputPlaceholder": null, "responseImage": "/assets/scene3-path/s3-response-a.png", "responseLines": ["你的脚在往前走，但你的心还在湖边。", "路两旁的东西从你身边经过，你没有看见它们。"]},
+        {"id": "b", "text": "一直在看路的尽头，想知道终点是什么", "score": 2, "seedType": null, "hasInput": false, "inputPlaceholder": null, "responseImage": "/assets/scene3-path/s3-response-b.png", "responseLines": ["终点在哪里？你不知道。", "但你发现自己走得越来越快——好像到达某个地方，就能解决什么。"]},
+        {"id": "c", "text": "突然停下来了——因为路边有一朵花，很小，白色的，花瓣上还有今早的雨", "score": 5, "seedType": null, "hasInput": false, "inputPlaceholder": null, "responseImage": "/assets/scene3-path/s3-response-c.png", "responseLines": ["你蹲下来。它很小。", "小到如果你不停下来，永远不会发现它。", "但它在这里。此刻，你也在这里。这就够了。"]},
+        {"id": "d", "text": "走得很快，像是在赶路，但你不知道在赶什么", "score": 2, "seedType": null, "hasInput": false, "inputPlaceholder": null, "responseImage": "/assets/scene3-path/s3-response-d.png", "responseLines": ["你在赶路。但路没有在赶你。", "它还是那个速度，安静地铺在你脚下。", "也许有一天你会慢下来。"]}
+      ]
+    }
+  },
+  "scene4": {
+    "dimension": "self",
+    "shots": [
+      {"id": "s4-shot-01", "image": "/assets/scene4-tree/s4-shot-01.png", "lines": ["小路的尽头是一棵树。", "非常老的树。树干要两个人才能合抱。"]},
+      {"id": "s4-shot-02", "image": "/assets/scene4-tree/s4-shot-02.png", "lines": ["树冠很大，坐在下面的时候，世界安静了一层。", "光从叶缝里漏下来，在地上画出不断变化的图案。"]},
+      {"id": "s4-shot-03", "image": "/assets/scene4-tree/s4-shot-03.png", "lines": ["你靠着树干坐下。", "树皮很粗糙，但那种粗糙让你觉得踏实。", "从这里可以看见你一路走来的痕迹——"]},
+      {"id": "s4-shot-03b", "image": "/assets/scene4-tree/s4-shot-03.png", "lines": ["湖边的脚印、草地上被压倒的草、", "你经过时惊飞的一只鸟留下的空枝。"]},
+      {"id": "s4-shot-04", "image": "/assets/scene4-tree/s4-shot-04.png", "lines": ["你看着那些痕迹，像是在看一个人的故事。", "那个人是你。", "但此刻你不在故事里面——你在故事外面，看着它。"]}
+    ],
+    "choice": {
+      "prompt": "这种感觉——",
+      "image": "/assets/scene4-tree/s4-shot-04.png",
+      "options": [
+        {"id": "a", "text": "有一种奇怪的轻松。像是终于可以喘口气了", "score": 5, "seedType": null, "hasInput": false, "inputPlaceholder": null, "responseImage": "/assets/scene4-tree/s4-response-a.png", "responseLines": ["你呼了一口气。是那种很久没有呼出来的气。", "从这里看，所有的事情都小了一点。", "包括那些很重的事情。"]},
+        {"id": "b", "text": "让你不太舒服。你不想当观众，你想回到路上去", "score": 2, "seedType": null, "hasInput": false, "inputPlaceholder": null, "responseImage": "/assets/scene4-tree/s4-response-b.png", "responseLines": ["你不喜欢旁观。你要回去。", "但——也许偶尔从远处看看自己，不是逃避。", "是给自己一个喘息的角度。"]},
+        {"id": "c", "text": "你发现那些脚印有深有浅。深的地方是你用力的时候", "score": 4, "seedType": null, "hasInput": false, "inputPlaceholder": null, "responseImage": "/assets/scene4-tree/s4-response-c.png", "responseLines": ["深的地方。你记得那些时刻。很用力。", "也许太用力了。", "但你走过来了。"]},
+        {"id": "d", "text": "你闭上眼睛。不需要看。你知道那是你的路", "score": 3, "seedType": null, "hasInput": false, "inputPlaceholder": null, "responseImage": "/assets/scene4-tree/s4-response-d.png", "responseLines": ["你不需要证据。你知道自己走过什么。", "这棵树也知道。它看见了全部。"]}
+      ]
+    }
+  },
+  "scene5": {
+    "dimension": "values",
+    "plantingImage": "/assets/scene5-garden/s5-shot-04.png",
+    "plantingLines": ["你把种子放进土里，覆上一层松软的泥。", "你不知道它会长成什么。但你知道你想让它活着。"],
+    "shots": [
+      {"id": "s5-shot-01", "image": "/assets/scene5-garden/s5-shot-01.png", "lines": ["你站起来，绕到树的背后。", "那里藏着一小片空地。"]},
+      {"id": "s5-shot-02", "image": "/assets/scene5-garden/s5-shot-02.png", "lines": ["泥土是新翻过的，深棕色，湿润。", "像是有人刚刚准备好了它。", "空地边上放着几包种子。"]},
+      {"id": "s5-shot-03", "image": "/assets/scene5-garden/s5-shot-03.png", "lines": ["没有标签，没有说明。但每一包的颜色不同。", "你拿起它们的时候，手心有不同的感觉。", "有的温热，有的清凉，有的有一种微微的震动，像是心跳。", "你不知道它们会长成什么。但你知道你想种一颗。"]}
+    ],
+    "choice": {
+      "prompt": "你拿起了——",
+      "image": "/assets/scene5-garden/s5-shot-03.png",
+      "options": [
+        {"id": "a", "text": "那颗温热的，像是握着另一个人的手", "score": null, "seedType": "warm", "hasInput": false, "inputPlaceholder": null, "responseImage": "/assets/scene5-garden/s5-response-a.png", "responseLines": ["温热从手心蔓延到手腕。", "像是有人在很远的地方，朝你伸出了手。", "你握住了。"]},
+        {"id": "b", "text": "那颗有微微震动的，像是某种还没说出口的话", "score": null, "seedType": "pulse", "hasInput": false, "inputPlaceholder": null, "responseImage": "/assets/scene5-garden/s5-response-b.png", "responseLines": ["它在你手里跳动。", "像是一个词，一直在你喉咙里，等着被说出来。", "你还不知道那个词是什么。但你知道它在。"]},
+        {"id": "c", "text": "那颗清凉的，像是山顶的风", "score": null, "seedType": "cool", "hasInput": false, "inputPlaceholder": null, "responseImage": "/assets/scene5-garden/s5-response-c.png", "responseLines": ["凉意顺着指尖上升。", "像是站在很高很高的地方，风从四面八方来。", "什么都不用抓住。"]},
+        {"id": "d", "text": "那颗沉甸甸的，像是一个承诺", "score": null, "seedType": "heavy", "hasInput": false, "inputPlaceholder": null, "responseImage": "/assets/scene5-garden/s5-response-d.png", "responseLines": ["它沉甸甸的。", "不是负担的那种重——是锚的那种重。", "让你知道自己站在哪里。为了什么。"]}
+      ]
+    }
+  },
+  "scene6": {
+    "dimension": "action",
+    "shots": [
+      {"id": "s6-transition-01", "image": "/assets/scene6-bridge/s6-transition-01.png", "lines": ["你站起身，拍了拍膝盖上的泥土。", "身后那颗种子安静地留在地里。", "你没有回头看——但你知道它在那里。"]},
+      {"id": "s6-transition-02", "image": "/assets/scene6-bridge/s6-transition-02.png", "lines": ["花园的空气变了。", "你说不清是什么时候开始的，", "但前方的光线更亮了一些，草丛里有了水声。"]},
+      {"id": "s6-shot-01", "image": "/assets/scene6-bridge/s6-shot-01.png", "lines": ["你继续往前走。花园的最深处，雾气渐浓。", "空气变得不一样了——不是花园里的任何味道。", "是新的。"]},
+      {"id": "s6-shot-02", "image": "/assets/scene6-bridge/s6-shot-02.png", "lines": ["然后你看见了那座桥。", "它不大。木板有些旧了，有几块被青苔覆盖。", "桥下是一条很窄的溪，水声很轻。"]},
+      {"id": "s6-shot-03", "image": "/assets/scene6-bridge/s6-shot-03.png", "lines": ["桥的另一边被雾遮住了——你看不见那边有什么。", "但你有一种感觉：那边不是终点，是开始。"]},
+      {"id": "s6-shot-04", "image": "/assets/scene6-bridge/s6-shot-04.png", "lines": ["风从桥那边吹过来。", "带着一种你说不出的气味。不是花园里的。", "是你还没有去过的地方的味道。"]}
+    ],
+    "choice": {
+      "prompt": "你——",
+      "image": "/assets/scene6-bridge/s6-shot-04.png",
+      "options": [
+        {"id": "a", "text": "踏上了桥。木板在脚下轻轻响了一声，像是在说'来吧'", "score": 5, "seedType": null, "hasInput": false, "inputPlaceholder": null, "responseImage": "/assets/scene6-bridge/s6-response-a.png", "responseLines": ["木板在脚下吱呀作响。雾很浓。", "但你往前走了一步。又一步。", "你看不见路。但你在走。"]},
+        {"id": "b", "text": "在桥头坐下来。你看着雾，觉得今天不用过去也没关系", "score": 3, "seedType": null, "hasInput": false, "inputPlaceholder": null, "responseImage": "/assets/scene6-bridge/s6-response-b.png", "responseLines": ["你坐下来。风继续吹。雾继续漂。", "你不需要今天就过去。", "桥不会消失。它会等你。"]},
+        {"id": "c", "text": "从口袋里拿出一样东西放在桥头——你不需要带着它过去了", "score": 4, "seedType": null, "hasInput": true, "inputPlaceholder": "你放下了……", "responseImage": "/assets/scene6-bridge/s6-response-c.png", "responseLines": ["你把它放下了。不重了。", "无论那边有什么，你不需要带着这个过去。"]},
+        {"id": "d", "text": "朝雾里说了一句话。你不知道有没有人听见，但你想说", "score": 3, "seedType": null, "hasInput": true, "inputPlaceholder": "你说……", "responseImage": "/assets/scene6-bridge/s6-response-d.png", "responseLines": ["声音消失在雾里。", "你不知道有没有人听见。", "但你说了。这是最重要的部分。"]}
+      ]
+    }
+  }
+}
