@@ -2,7 +2,7 @@
 
 **基于接纳承诺疗法（ACT）的沉浸式数字心理体验**
 
-🔗 **[立即体验 → stillmirror-production.up.railway.app](https://stillmirror-production.up.railway.app)**
+🔗 **[立即体验 → janinziachen-stillmirror.up.railway.app](https://janinziachen-stillmirror.up.railway.app)**
 
 > 「不必准备好，也可以开始。」
 
