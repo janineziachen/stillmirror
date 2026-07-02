@@ -179,7 +179,7 @@ init()
         :disabled="!startReady"
         @click="onStartExplore"
       >
-        <img class="vine-frame" src="/assets/vine-frame.png" alt="" aria-hidden="true" />
+        <img class="vine-frame" src="/assets/vine-frame.webp" alt="" aria-hidden="true" />
         <span class="start-btn-text">开始探索</span>
       </button>
     </div>

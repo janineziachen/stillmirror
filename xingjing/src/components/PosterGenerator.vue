@@ -79,7 +79,7 @@ const fileInput = ref(null)
 const avatarUrl = ref('')
 const userName = ref('')
 
-const imageSrc = computed(() => `/assets/garden/poster-${props.panoramaType}.png`)
+const imageSrc = computed(() => `/assets/garden/poster-${props.panoramaType}.webp`)
 
 function triggerUpload() {
   fileInput.value?.click()
@@ -98,7 +98,7 @@ function goPreview() {
 }
 
 function onImgError(e) {
-  e.target.src = `/assets/garden/panorama-${props.panoramaType}.png`
+  e.target.src = `/assets/garden/panorama-${props.panoramaType}.webp`
 }
 
 async function downloadPoster() {

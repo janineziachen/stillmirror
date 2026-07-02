@@ -70,7 +70,7 @@ const imageScale = ref(1)  // rendered height / natural height
 
 const panoramaSrc = computed(() => {
   const type = props.gardenResult.panoramaType
-  return `/assets/garden/panorama-${type}.png`
+  return `/assets/garden/panorama-${type}.webp`
 })
 
 const currentZone = computed(() => {

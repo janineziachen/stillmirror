@@ -84,7 +84,7 @@ const posterText = computed(() =>
 )
 
 const panoramaSrc = computed(() =>
-  `/assets/garden/panorama-${props.gardenResult.panoramaType}.png`
+  `/assets/garden/panorama-${props.gardenResult.panoramaType}.webp`
 )
 
 const allLines = computed(() => {

@@ -70,31 +70,31 @@ export function useAudio() {
   // 各曲已知响度差异用 volume 补偿：越安静的曲子给更高的值
   const AUDIO_CONFIG = {
     opening: {
-      music: { src: '/audio/music-opening.mp3', volume: 0.30, loop: true }
+      music: { src: '/audio/music-opening.opus', volume: 0.30, loop: true }
     },
     scene1: {
-      music: { src: '/audio/music-lake.mp3', volume: 0.28, loop: true }
+      music: { src: '/audio/music-lake.opus', volume: 0.28, loop: true }
     },
     scene2: {
-      music: { src: '/audio/music-sky.mp3', volume: 0.30, loop: true }
+      music: { src: '/audio/music-sky.opus', volume: 0.30, loop: true }
     },
     scene3: {
-      music: { src: '/audio/music-path.mp3', volume: 0.18, loop: true }
+      music: { src: '/audio/music-path.opus', volume: 0.18, loop: true }
     },
     scene4: {
-      music: { src: '/audio/music-tree.mp3', volume: 0.24, loop: true }
+      music: { src: '/audio/music-tree.opus', volume: 0.24, loop: true }
     },
     scene5: {
-      music: { src: '/audio/music-garden.mp3', volume: 0.30, loop: true }
+      music: { src: '/audio/music-garden.opus', volume: 0.30, loop: true }
     },
     scene6: {
-      music: { src: '/audio/music-bridge.mp3', volume: 0.20, loop: true }
+      music: { src: '/audio/music-bridge.opus', volume: 0.20, loop: true }
     },
     garden: {
-      music: { src: '/audio/music-garden-view.mp3', volume: 0.28, loop: true }
+      music: { src: '/audio/music-garden-view.opus', volume: 0.28, loop: true }
     },
     result: {
-      music: { src: '/audio/music-result.mp3', volume: 0.26, loop: true }
+      music: { src: '/audio/music-result.opus', volume: 0.26, loop: true }
     }
   }
 

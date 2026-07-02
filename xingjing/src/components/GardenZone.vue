@@ -58,7 +58,7 @@ const afterVisible = ref(false)
 const afterLineIndex = ref(-1)
 
 const detailImageSrc = computed(() =>
-  `/assets/garden/detail-${props.zone.id}-${props.season}.png`
+  `/assets/garden/detail-${props.zone.id}-${props.season}.webp`
 )
 
 const interpretationLines = computed(() => {
