@@ -35,55 +35,55 @@
     "shots": [
       {
         "id": "s1-shot-01",
-        "image": "/assets/scene1-lake/s1-shot-01.png",
+        "image": "/assets/scene1-lake/s1-shot-01.webp",
         "lines": ["你走进花园，脚下是落叶。", "厚厚的一层，踩上去没有声音。"]
       },
       {
         "id": "s1-shot-02",
-        "image": "/assets/scene1-lake/s1-shot-02.png",
+        "image": "/assets/scene1-lake/s1-shot-02.webp",
         "lines": ["空气是湿的，带着青苔和雨后的味道。", "这座花园像是被遗忘了很久，又像是一直在等你。"]
       },
       {
         "id": "s1-shot-03",
-        "image": "/assets/scene1-lake/s1-shot-03.png",
+        "image": "/assets/scene1-lake/s1-shot-03.webp",
         "lines": ["树丛渐渐稀疏。一片湖出现在你面前。", "湖面很静，静到像一面铺在地上的镜子。", "薄雾贴着水面，缓慢地呼吸。"]
       },
       {
         "id": "s1-shot-04",
-        "image": "/assets/scene1-lake/s1-shot-04.png",
+        "image": "/assets/scene1-lake/s1-shot-04.webp",
         "lines": ["你走到湖边，低头看——", "水面映出你的样子。但那个倒影的眼神和你不太一样。", "它看起来比你更诚实。"]},
       {
         "id": "s1-shot-04b",
-        "image": "/assets/scene1-lake/s1-shot-04.png",
+        "image": "/assets/scene1-lake/s1-shot-04.webp",
         "lines": ["它没有笑，也没有假装没事。", "它只是看着你，像是在说：'你可以不用撑着。'"]
       }
     ],
     "choice": {
       "prompt": "你感觉胸口有什么东西动了一下。你会——",
-      "image": "/assets/scene1-lake/s1-shot-04.png",
+      "image": "/assets/scene1-lake/s1-shot-04.webp",
       "options": [
         {
           "id": "a", "text": "在湖边坐下来，让自己和那个倒影待一会儿",
           "score": 5, "seedType": null, "hasInput": false, "inputPlaceholder": null,
-          "responseImage": "/assets/scene1-lake/s1-response-a.png",
+          "responseImage": "/assets/scene1-lake/s1-response-a.webp",
           "responseLines": ["你在湖边坐了很久。", "久到雾气开始散去，久到倒影的表情似乎柔和了一点——", "或者是你的表情先柔和了。"]
         },
         {
           "id": "b", "text": "用手搅乱水面——你不想看见那个表情",
           "score": 2, "seedType": null, "hasInput": false, "inputPlaceholder": null,
-          "responseImage": "/assets/scene1-lake/s1-response-b.png",
+          "responseImage": "/assets/scene1-lake/s1-response-b.webp",
           "responseLines": ["水面碎成一圈圈涟漪。倒影散了。", "但你知道，等水面静下来，它还会在那里。"]
         },
         {
           "id": "c", "text": "站起来往回走，你还没准备好面对它",
           "score": 1, "seedType": null, "hasInput": false, "inputPlaceholder": null,
-          "responseImage": "/assets/scene1-lake/s1-response-c.png",
+          "responseImage": "/assets/scene1-lake/s1-response-c.webp",
           "responseLines": ["你转身离开了湖边。", "没关系。它不会消失。", "也许下一次，你会准备好。"]
         },
         {
           "id": "d", "text": "轻声说了一句话",
           "score": 4, "seedType": null, "hasInput": true, "inputPlaceholder": "你对倒影说……",
-          "responseImage": "/assets/scene1-lake/s1-response-d.png",
+          "responseImage": "/assets/scene1-lake/s1-response-d.webp",
           "responseLines": ["你的声音很轻，轻到只有水面听见了。", "但倒影的表情变了一点。", "像是在说：我听到了。"]
         }
       ]
